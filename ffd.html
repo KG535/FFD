@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=\device-width, initial-scale=1.0">
     <title>Fairfield Dance</title>
     <style>
         @font-face {
             font-family: 'KingQueen';
-            src: url('https://kg535.github.io/ffd/KingQueen.woff') format('woff');
+            src: url('KingandQueenDemo-Regular.otf') format('opentype'); /* Updated to OTF */
         }
         
         body {
@@ -22,15 +22,15 @@
         }
         
         h1 {
-            font-family: 'KingQueen', sans-serif;
-            color: #939292; /* Corrected color format */
+            font-family: 'KingQueen', sans-serif; /* Ensure the correct font name is used */
+            color: #939292; /* Change this to adjust text color */
         }
     </style>
 </head>
 <body>
     <h1>Upcoming Dances in Fairfield</h1>
-    <iframe src="https://calendar.google.com/calendar/embed?src=c825dd525e281a0d3afaf47f6702baf521af81f0b5728a479667fc41a739b697%40group.calendar.google.com&ctz=America%2FChicago" 
-        style="border: 0; width: 800px; height: 600px;" frameborder="0" scrolling="no">
-    </iframe>
+<iframe src="https://embed.styledcalendar.com/#QhQukcysVDMpSytLUWIz" title="Styled Calendar" class="styled-calendar-container" style="width: 800px; height: 600px; border: none;" data-cy="calendar-embed-iframe"></iframe>
+<script async type="module" src="https://embed.styledcalendar.com/assets/parent-window.js"></script>
+
 </body>
 </html>
